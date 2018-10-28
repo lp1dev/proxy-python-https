@@ -14,7 +14,6 @@ class Request():
         for header in headers_list:
           if len(header) > 1 and header[0]:
             headers[header[0]] = header[1]
-        print('headers', headers)
         return headers
 
     def __str__(self):
